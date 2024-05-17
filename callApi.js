@@ -3,7 +3,7 @@ const logger = require("./logger");
 
 async function makeHttpRequest() {
   try {
-    const response = await axios.get("https://api.digitalocean.com/v2/account");
+    const response = await axios.get("https://api.digitalocean.com/v2");
 
     if (response.status !== 200) {
       throw new Error(

@@ -1,3 +1,4 @@
 const { makeHttpRequest } = require("./callApi");
 
-makeHttpRequest();
+setInterval(makeHttpRequest, 5000);
+process.stdin.resume();
