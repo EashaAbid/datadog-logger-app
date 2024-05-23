@@ -58,7 +58,7 @@ In this article, we use this application to demonstrate a simple case of logging
 
 Follow these steps to deploy this application on App Platform along with DataDog agent.
 
-- Go to DigitalOcean App Platform and click on **Crate App**.
+- Go to DigitalOcean App Platform and click on **Create App**.
 
 - Under *Service Provider*, select **GitHub** and select the **Repository** that you forked earlier. Click on **Next** > **+ Additional Resource (Optional)**.
 
